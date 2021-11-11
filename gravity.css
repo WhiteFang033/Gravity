@@ -12,14 +12,14 @@
 .nav{
     position: fixed;
     top: 0%;
-    height: 10%;
+    height: 12%;
     width: 100%;
-    background-color: black;
+    background-color: rgb(0, 0, 0, 0.9)
 }
 
 ul{
     position: fixed;
-    top: 4%;
+    top: 5%;
     list-style-type: square;
     text-decoration: none;
     left: 60%;
@@ -55,17 +55,35 @@ ul li a:hover{
 
 .name{
     position: absolute;
-    top: 50%;
+    top: 40%;
     font-size: 50px;
     color: white;
     text-align: center;
     left: 15%;
 }
 #gravity{
-    max-width: 100%;
-    max-height: 80%;
+    position: fixed;
+    max-width: 150%;
+    max-height: 150%;
 }
 
+.content{
+    top: 100%;
+    color: white;
+    position: absolute;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.contact{
+    position:fixed;
+    color: white;
+    top: 5%;
+    left: 47%;
+
+}
 
 @media only screen and (max-width:900px){
 
